@@ -1,7 +1,7 @@
 package ch04;
 
 public class Student {
-	//속성 public 안써도됨
+	//속성 (public 안써도됨)
 	public int studentID;
 	public String studentname;
 	public String address;
