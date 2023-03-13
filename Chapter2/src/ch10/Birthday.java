@@ -20,6 +20,7 @@ public class Birthday {
         }
         else {
             this.month = month;
+            isValid = true;
         }
     }
 
@@ -29,7 +30,7 @@ public class Birthday {
     }
 
     public void showDate() {
-        if(isValid) {
+        if(isValid) {  //true 일 때
             System.out.println(year + "년 " + month + "월 " + day + "일 입니다.");
         }
         else {

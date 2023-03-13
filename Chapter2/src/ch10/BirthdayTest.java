@@ -7,7 +7,7 @@ public class BirthdayTest {
         Birthday date = new Birthday();
 
         date.setYear(2019);
-        date.setMonth(30);
+        date.setMonth(12);
         date.setDay(14);
 
         date.showDate();
